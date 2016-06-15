@@ -15,6 +15,8 @@
 		3EC6A33F1A2716CF00130828 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC6A33E1A2716CF00130828 /* Images.xcassets */; };
 		3EC6A3421A2716CF00130828 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EC6A3401A2716CF00130828 /* LaunchScreen.xib */; };
 		3EC6A34E1A2716CF00130828 /* autolayouttestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC6A34D1A2716CF00130828 /* autolayouttestTests.m */; };
+		3EC6A3581A272A2E00130828 /* quantum.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC6A3571A272A2E00130828 /* quantum.png */; };
+		3EC6A35B1A272ABD00130828 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC6A35A1A272ABD00130828 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,9 @@
 		3EC6A3471A2716CF00130828 /* autolayouttestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autolayouttestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC6A34C1A2716CF00130828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EC6A34D1A2716CF00130828 /* autolayouttestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = autolayouttestTests.m; sourceTree = "<group>"; };
+		3EC6A3571A272A2E00130828 /* quantum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quantum.png; sourceTree = "<group>"; };
+		3EC6A3591A272ABD00130828 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		3EC6A35A1A272ABD00130828 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +73,7 @@
 				3EC6A32D1A2716CF00130828 /* autolayouttest */,
 				3EC6A34A1A2716CF00130828 /* autolayouttestTests */,
 				3EC6A32C1A2716CF00130828 /* Products */,
+				3EC6A3571A272A2E00130828 /* quantum.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +94,8 @@
 				3EC6A3381A2716CF00130828 /* ViewController.h */,
 				3EC6A3391A2716CF00130828 /* ViewController.m */,
 				3EC6A33B1A2716CF00130828 /* Main.storyboard */,
+				3EC6A3591A272ABD00130828 /* TableViewController.h */,
+				3EC6A35A1A272ABD00130828 /* TableViewController.m */,
 				3EC6A33E1A2716CF00130828 /* Images.xcassets */,
 				3EC6A3401A2716CF00130828 /* LaunchScreen.xib */,
 				3EC6A3351A2716CF00130828 /* autolayouttest.xcdatamodeld */,
@@ -203,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EC6A33D1A2716CF00130828 /* Main.storyboard in Resources */,
+				3EC6A3581A272A2E00130828 /* quantum.png in Resources */,
 				3EC6A3421A2716CF00130828 /* LaunchScreen.xib in Resources */,
 				3EC6A33F1A2716CF00130828 /* Images.xcassets in Resources */,
 			);
@@ -225,6 +234,7 @@
 				3EC6A3341A2716CF00130828 /* AppDelegate.m in Sources */,
 				3EC6A3371A2716CF00130828 /* autolayouttest.xcdatamodeld in Sources */,
 				3EC6A33A1A2716CF00130828 /* ViewController.m in Sources */,
+				3EC6A35B1A272ABD00130828 /* TableViewController.m in Sources */,
 				3EC6A3311A2716CF00130828 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
